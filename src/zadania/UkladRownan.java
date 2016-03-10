@@ -2,14 +2,12 @@ package zadania;
 
 import java.util.Scanner;
 
-/**
- * Created by ICom on 2016-03-07.
- */
+
 public class UkladRownan {
 
     private float liczWyznacznik(int w1,int w2, int w3, int w4){
-        float w = (w1 * w2) - (w3 * w4);
-        return w;
+
+        return ((w1 * w2) - (w3 * w4));
     }
 
 
@@ -52,7 +50,7 @@ public class UkladRownan {
             float y = wy/wyznacznik;
             System.out.println("Rozwiazanie: x ="+x+", y="+y+".");
         }
-        else if (wy==0 && (wx!=0 || wy!=0) ){
+        else if (wx!=0 || wy!=0){
             System.out.println("Uklad jest sprzeczny!");
         }
         else{

@@ -12,6 +12,7 @@ public class Menu {
 
             System.out.println("\n\n--------------------\nWybierz opcje:");
             System.out.println("1. Uklad rownan.");
+            System.out.println("2. Liczba Armstronga");
             System.out.println("0. Zakoncz program.");
             System.out.println("--------------------");
 
@@ -25,6 +26,9 @@ public class Menu {
                     u.rozwiazRownanie();
                     break;
                 case 2:
+                    LiczbaArmstronga l = new LiczbaArmstronga();
+                    l.wyswietlWiadomosc();
+
                     break;
                 case 3:
                     break;
