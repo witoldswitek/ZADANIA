@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Menu {
 
-    public void displayMenu(){
+    public void displayMenu() {
         boolean repeat = true;
 
         do {
@@ -48,11 +48,8 @@ public class Menu {
                     break;
                 default:
                     break;
-
             }
         }
         while (repeat);
     }
-
-
 }
