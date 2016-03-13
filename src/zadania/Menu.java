@@ -13,6 +13,7 @@ public class Menu {
             System.out.println("\n\n--------------------\nWybierz opcje:");
             System.out.println("1. Uklad rownan.");
             System.out.println("2. Liczba Armstronga");
+            System.out.println("3. Palindrom");
             System.out.println("0. Zakoncz program.");
             System.out.println("--------------------");
 
@@ -31,6 +32,8 @@ public class Menu {
 
                     break;
                 case 3:
+                    Palindrom p = new Palindrom();
+                    p.getRange();
                     break;
                 case 4:
                     break;
