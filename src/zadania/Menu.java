@@ -14,6 +14,7 @@ public class Menu {
             System.out.println("1. Uklad rownan.");
             System.out.println("2. Liczba Armstronga");
             System.out.println("3. Palindrom");
+            System.out.println("4. Sito Eratostenesa");
             System.out.println("0. Zakoncz program.");
             System.out.println("--------------------");
 
@@ -36,6 +37,8 @@ public class Menu {
                     p.getRange();
                     break;
                 case 4:
+                    SitoEratostenesa se = new SitoEratostenesa();
+                    se.getRange();
                     break;
                 case 5:
                     break;
