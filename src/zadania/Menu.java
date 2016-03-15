@@ -1,11 +1,13 @@
 package zadania;
 
+import java.io.FileNotFoundException;
+import java.io.UnsupportedEncodingException;
 import java.util.Scanner;
 
 
 public class Menu {
 
-    public void displayMenu() {
+    public void displayMenu() throws FileNotFoundException, UnsupportedEncodingException {
         boolean repeat = true;
 
         do {
