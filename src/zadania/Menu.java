@@ -15,7 +15,7 @@ public class Menu {
             System.out.println("2. Liczba Armstronga");
             System.out.println("3. Palindrom");
             System.out.println("4. Sito Eratostenesa");
-            System.out.println("0. Zakoncz program.");
+            System.out.println("0. Zakoncz program. ");
             System.out.println("--------------------");
 
             Scanner sc = new Scanner(System.in);
