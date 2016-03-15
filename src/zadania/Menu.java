@@ -24,11 +24,11 @@ public class Menu {
 
                 case 1:
                     UkladRownan u = new UkladRownan();
-                    u.rozwiazRownanie();
+                    u.solve();
                     break;
                 case 2:
                     LiczbaArmstronga l = new LiczbaArmstronga();
-                    l.wyswietlWiadomosc();
+                    l.displayMessage();
 
                     break;
                 case 3:

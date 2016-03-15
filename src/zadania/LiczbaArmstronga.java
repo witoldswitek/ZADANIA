@@ -6,15 +6,15 @@ import java.math.*;
 public class LiczbaArmstronga {
 
 
-    public void wyswietlWiadomosc() {
+    public void displayMessage() {
         System.out.print("Ten program liczy liczby Armstronga.\nPodaj przedzial od zera do:");
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
         System.out.print("Podales przedzial:\n[ 0 - " + a + " ]\n");
-        this.wyliczLiczby(a);
+        this.countArmstrong(a);
     }
 
-    private void wyliczLiczby(int a) {
+    private void countArmstrong(int a) {
 
         System.out.println("Liczby Armstronga to:");
 
