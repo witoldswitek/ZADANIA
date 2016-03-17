@@ -17,6 +17,7 @@ public class Menu {
             System.out.println("2. Liczba Armstronga");
             System.out.println("3. Palindrom");
             System.out.println("4. Sito Eratostenesa");
+            System.out.println("5. Szyfrowanie");
             System.out.println("0. Zakoncz program. ");
             System.out.println("--------------------");
 
@@ -43,6 +44,8 @@ public class Menu {
                     se.getRange();
                     break;
                 case 5:
+                    Szyfrowanie sz = new Szyfrowanie();
+                    sz.cypherData();
                     break;
                 case 6:
                     break;
