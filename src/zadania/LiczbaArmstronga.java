@@ -3,10 +3,10 @@ package zadania;
 import java.util.Scanner;
 import java.math.*;
 
-public class LiczbaArmstronga {
+public class LiczbaArmstronga implements Zadanie{
 
 
-    public void displayMessage() {
+    public void startTask() {
         System.out.print("Ten program liczy liczby Armstronga.\nPodaj przedzial od zera do:");
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
@@ -35,7 +35,7 @@ public class LiczbaArmstronga {
             }
 
             if (c == i) {
-                System.out.print(c + "; ");
+                System.out.print(((int) c) + "; ");
             }
         }
     }

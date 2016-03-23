@@ -3,7 +3,7 @@ package zadania;
 import java.util.Scanner;
 
 
-public class UkladRownan {
+public class UkladRownan implements Zadanie{
 
     private float countW(int w1, int w2, int w3, int w4) {
 
@@ -11,7 +11,7 @@ public class UkladRownan {
     }
 
 
-    public void solve() {
+    public void startTask() {
 
         int a, b, c, d, e, f;
 

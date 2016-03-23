@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 
-public class Szyfrowanie {
+public class Szyfrowanie implements Zadanie{
 
     private String readWord() {
         Scanner sc1 = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Szyfrowanie {
         return sc2.nextInt();
     }
 
-    public void cypherData() {
+    public void startTask() {
 
         String w = readWord();
         int n = readNumber();
