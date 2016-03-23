@@ -3,18 +3,18 @@ package zadania;
 import java.util.Scanner;
 import java.math.*;
 
-public class LiczbaArmstronga {
+public class LiczbaArmstronga implements Zadanie{
 
 
-    public void wyswietlWiadomosc() {
+    public void startTask() {
         System.out.print("Ten program liczy liczby Armstronga.\nPodaj przedzial od zera do:");
         Scanner s = new Scanner(System.in);
         int a = s.nextInt();
         System.out.print("Podales przedzial:\n[ 0 - " + a + " ]\n");
-        this.wyliczLiczby(a);
+        this.countArmstrong(a);
     }
 
-    private void wyliczLiczby(int a) {
+    private void countArmstrong(int a) {
 
         System.out.println("Liczby Armstronga to:");
 
@@ -35,7 +35,7 @@ public class LiczbaArmstronga {
             }
 
             if (c == i) {
-                System.out.print(c + "; ");
+                System.out.print(((int) c) + "; ");
             }
         }
     }

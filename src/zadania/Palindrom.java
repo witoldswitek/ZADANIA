@@ -2,10 +2,9 @@ package zadania;
 
 import java.util.Scanner;
 
+public class Palindrom implements Zadanie{
 
-public class Palindrom {
-
-    public void getRange() {
+    public void startTask() {
         System.out.print("Podaj koniec przedzialu (od zera do 196) :");
         Scanner sc = new Scanner(System.in);
         int r = sc.nextInt();
@@ -20,14 +19,13 @@ public class Palindrom {
     private void countPalindrom(long r, long j) {
 
         for (long i = j; i < r; i++) {
-            //long usedI =i;
             long reversedI = reverseNumber(i);
 
             if (i == reversedI) {
                 System.out.println("Liczba " + i + " to panindrom.\n");
             } else {
                 long newI = i + reversedI;
-                System.out.println("Liczba " + i + " nie jest palindromem. Sprawdzam dla " + newI);
+                System.out.println("Liczba " + i + " nie jest palindromem. Sprawdzam dla " + newI+"...");
                 countPalindrom(newI + 1, newI);
             }
         }
