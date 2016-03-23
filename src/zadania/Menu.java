@@ -12,7 +12,9 @@ public class Menu {
 
         do {
 
-            System.out.println("\n\n--------------------\nWybierz opcje:");
+            System.out.println("\n\n--------------------");
+            System.out.println(" Wybierz opcje:");
+            System.out.println("--------------------");
             System.out.println("1. Uklad rownan.");
             System.out.println("2. Liczba Armstronga");
             System.out.println("3. Palindrom");
@@ -46,10 +48,6 @@ public class Menu {
                 case 5:
                     Szyfrowanie sz = new Szyfrowanie();
                     sz.cypherData();
-                    break;
-                case 6:
-                    break;
-                case 7:
                     break;
                 case 0:
                     repeat = false;

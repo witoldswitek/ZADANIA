@@ -2,7 +2,6 @@ package zadania;
 
 import java.util.Scanner;
 
-
 public class Palindrom {
 
     public void getRange() {
@@ -20,7 +19,6 @@ public class Palindrom {
     private void countPalindrom(long r, long j) {
 
         for (long i = j; i < r; i++) {
-            //long usedI =i;
             long reversedI = reverseNumber(i);
 
             if (i == reversedI) {
