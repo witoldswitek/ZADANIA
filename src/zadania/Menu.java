@@ -20,6 +20,7 @@ public class Menu {
             System.out.println("[3] Palindrom");
             System.out.println("[4] Sito Eratostenesa");
             System.out.println("[5] Szyfrowanie");
+            System.out.println("[6] Sortowanie babelkowe");
             System.out.println("[0] Zakoncz program! ");
             System.out.println("--------------------");
 
@@ -48,6 +49,10 @@ public class Menu {
                 case 5:
                     Zadanie sz = new Szyfrowanie();
                     sz.startTask();
+                    break;
+                case 6:
+                    Zadanie sb = new SortowanieBabelkowe();
+                    sb.startTask();
                     break;
                 case 0:
                     repeat = false;
