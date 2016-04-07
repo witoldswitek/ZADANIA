@@ -21,6 +21,7 @@ public class Menu {
             System.out.println("[4] Sito Eratostenesa");
             System.out.println("[5] Szyfrowanie");
             System.out.println("[6] Sortowanie babelkowe");
+            System.out.println("[7] Tablica symetryczna");
             System.out.println("[0] Zakoncz program! ");
             System.out.println("--------------------");
 
@@ -53,6 +54,10 @@ public class Menu {
                 case 6:
                     Zadanie sb = new SortowanieBabelkowe();
                     sb.startTask();
+                    break;
+                case 7:
+                    Zadanie ts = new SymetrycznaTablica();
+                    ts.startTask();
                     break;
                 case 0:
                     repeat = false;
