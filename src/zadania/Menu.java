@@ -43,8 +43,8 @@ public class Menu {
                     p.startTask();
                     break;
                 case 4:
-                   /* Zadanie se = new SitoEratostenesa();
-                    se.startTask();*/
+                    Zadanie se = new SitoEratostenesa();
+                    se.startTask();
                     break;
                 case 5:
                     Zadanie sz = new Szyfrowanie();
